@@ -1,0 +1,34 @@
+pipeline {
+    agent any 
+    stages {
+stage('checkout ') { 
+            steps {
+             echo"checkout completed"
+
+                // 
+            }
+        }
+        stage('Build') { 
+            steps {
+                // 
+             echo"im omar abouraya from github"
+             echo"build completed"
+
+            }
+        }
+        stage('Test') { 
+            steps {
+                // 
+             echo"test completed"
+
+            }
+        }
+        stage('Deploy') { 
+            steps {
+             echo"deploy completed"
+
+                // 
+            }
+        }
+    }
+}
